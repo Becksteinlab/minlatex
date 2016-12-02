@@ -1,0 +1,175 @@
+\documentclass[12pt,letterpaper]{report}
+
+\usepackage[utf8]{inputenc}
+\usepackage{setspace}
+
+% for caption settings
+\usepackage[font={scriptsize,singlespacing},labelfont=bf]{caption} 
+
+\usepackage[letterpaper,left=1.25in,right=1.25in,top=1in,bottom=1in]{geometry}
+\usepackage{graphicx}     % Include figure files
+\usepackage{dcolumn}      % Align table columns on decimal point
+\usepackage{bm}           % mathbf math
+\usepackage{multirow}
+\usepackage{amsmath,amssymb,amsbsy}      % more math tools
+
+\usepackage{csquotes}     % for block quotes
+\usepackage{booktabs}     % for some enhanced table features
+
+% use natbib for bibliography style
+\usepackage[square,sectionbib,numbers,super,sort&compress]{natbib}
+
+% for code blocks
+\usepackage{inconsolata}     % code typeface
+\usepackage{listings}
+\usepackage{color}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\lstdefinestyle{mystyle}{
+    %backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\footnotesize\ttfamily,
+    breakatwhitespace=false,         
+    breaklines=false,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=none,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+\lstset{style=mystyle}
+
+% for avoiding widow and orphan lines
+\widowpenalty=10000
+\clubpenalty=10000
+
+% custom commands for symbols
+\newcommand{\angstrom}{\text{\normalfont\AA}}  % Angstrom
+
+\begin{document}
+
+\title{YOUR TITLE}
+\author{YOUR NAME}
+
+\maketitle
+
+\begin{abstract}
+ABSTRACT CONTENT
+\end{abstract}
+
+\section{Introduction}
+
+Banjo DIY yr, cold-pressed sartorial celiac wayfarers shoreditch trust fund mlkshk pitchfork asymmetrical.
+Mumblecore swag pinterest, four dollar toast tumblr subway tile microdosing.
+Tilde iceland ugh gastropub chicharrones, readymade man braid.
+VHS lo-fi chia, edison bulb celiac church-key sriracha sartorial subway tile.
+Copper mug cray twee forage everyday carry sustainable.
+Hashtag lo-fi unicorn, knausgaard tumblr aesthetic photo booth listicle occupy humblebrag farm-to-table sartorial kickstarter taxidermy post-ironic.
+Celiac shoreditch irony, gochujang narwhal air plant kogi bitters coloring book distillery whatever woke kale chips farm-to-table.
+
+8-bit freegan keffiyeh cornhole four loko green juice tote bag, echo park pop-up retro.
+3 wolf moon flexitarian succulents, ugh pour-over XOXO blue bottle live-edge vape.
+Brunch typewriter try-hard, tattooed organic tumblr meggings.
+Ethical beard vaporware enamel pin vegan squid.
+Aesthetic pork belly yr kale chips butcher.
+Ethical asymmetrical ugh bushwick kinfolk, 90's four dollar toast woke XOXO.
+Knausgaard cred intelligentsia ethical hell of biodiesel.
+
+% an example figure
+\begin{figure}[h]
+\centering
+\includegraphics[width=6in]{figs/intro.png}
+\caption[SHORT CAPTION]
+{
+LONG CAPTION
+}
+\label{fig:intro_example}
+\end{figure}
+
+Pabst banjo chillwave, flexitarian stumptown gochujang try-hard cray retro viral drinking vinegar.
+Copper mug bicycle rights banh mi cred, kombucha distillery fixie beard disrupt lyft cray cliche.
+Gochujang schlitz plaid, fanny pack mixtape readymade selvage portland locavore tacos roof party.
+Listicle green juice fingerstache, cred readymade next level umami food truck church-key health goth forage jianbing tattooed hashtag blue bottle.
+Vaporware craft beer woke leggings enamel pin succulents.
+Venmo hashtag heirloom, retro lo-fi dreamcatcher occupy.
+Narwhal offal tumblr, kinfolk sustainable messenger bag pickled crucifix small batch keffiyeh shabby chic gastropub glossier readymade austin.
+
+Ugh hot chicken venmo, drinking vinegar you probably haven't heard of them VHS heirloom biodiesel bitters four dollar toast salvia locavore before they sold out knausgaard.
+Tumeric thundercats bushwick sartorial, hell of narwhal beard mixtape pug food truck literally.
+Small batch cray stumptown pabst, vinyl church-key tofu scenester.
++1 bespoke knausgaard, kombucha cronut paleo unicorn meh chambray authentic microdosing flexitarian cardigan lo-fi.
+Portland organic meh cornhole gluten-free air plant.
+Venmo slow-carb fixie, franzen vaporware fashion axe bicycle rights kombucha letterpress.
+Subway tile meditation succulents tumeric, leggings bitters tacos.
+
+
+\section{Methods}
+
+Minim raw denim commodo, vegan gentrify shoreditch tousled.
+Commodo stumptown unicorn, ennui hammock copper mug lo-fi disrupt mlkshk sint la croix tousled.
+Culpa cronut pop-up raclette flannel unicorn kale chips, excepteur jianbing officia.
+Labore plaid ad af street art subway tile ugh succulents, farm-to-table skateboard sriracha.
+Fashion axe craft beer roof party, lumbersexual vero ennui post-ironic.
+Truffaut kickstarter sed trust fund helvetica in, hot chicken fixie crucifix.
+Veniam austin VHS cronut, trust fund jianbing actually small batch.
+
+Vexillologist literally meggings umami, occupy meh PBR&B.
+Sustainable snackwave leggings, offal hexagon ad jianbing celiac placeat farm-to-table trust fund kombucha do next level shabby chic.
+Reprehenderit ethical enim food truck, la croix austin gastropub raclette try-hard laboris plaid master cleanse cupidatat chicharrones consequat.
+Kitsch kickstarter you probably haven't heard of them bitters, raw denim knausgaard locavore blue bottle distillery pariatur artisan.
+Stumptown fam asymmetrical pickled heirloom, health goth irure truffaut placeat.
+Sartorial labore laboris chartreuse pop-up banh mi, godard roof party.
+Raw denim normcore shabby chic gochujang, dolor art party photo booth master cleanse leggings fixie officia cardigan roof party la croix occupy.
+
+\begin{table}
+\centering
+\begin{tabular}{ll}
+  \toprule
+  name & charge state\\
+  \midrule
+  S1 & D157(0), D156($-$), K305($+$)\\
+  S2 & D157($-$), D156($-$), K305($+$)\\
+  S4 & D157($-$), D156($-$), K305(0)\\
+  \bottomrule
+\end{tabular}
+\caption[SHORT CAPTION]
+{
+LONG CAPTION
+}
+\label{tab:NapA_fep_chargestates}
+\end{table}
+
+Quinoa magna minim, edison bulb dreamcatcher marfa brunch af poke.
+Bicycle rights dreamcatcher fam, chillwave odio pickled ut cardigan.
+Elit photo booth paleo ramps iceland 90's hella, offal sriracha nisi vinyl literally.
+Hashtag locavore est food truck qui occaecat jean shorts commodo veniam, retro whatever selfies pickled.
+Chicharrones kinfolk magna eiusmod, tilde slow-carb 3 wolf moon synth.
+Do cred offal waistcoat, knausgaard ad single-origin coffee next level elit ennui tilde photo booth kitsch meh.
+XOXO master cleanse glossier etsy.
+
+Green juice eu selvage trust fund YOLO, cray pug et af.
+Freegan street art flannel officia offal, affogato gastropub ugh.
+Bushwick stumptown nisi, mlkshk id hell of church-key ad hashtag cillum.
+Raw denim mollit street art, sustainable slow-carb 8-bit four loko occaecat pok pok cred disrupt pickled crucifix chicharrones.
+Chia poke ut tousled fixie seitan.
+Gluten-free et kombucha, eu taxidermy blog hell of microdosing nesciunt heirloom fanny pack mixtape tumblr.
+Et marfa semiotics, tacos eu selfies four dollar toast nostrud gastropub vinyl literally banh mi.
+
+\section{Results}
+
+
+\section{Discussion}
+
+
+\bibliographystyle{physbiol-natbib} 
+\bibliography{bibliography}
+
+\end{document}
